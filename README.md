@@ -4,19 +4,21 @@
 This repository contains Python code for predicting Bitcoin prices using a Long Short-Term Memory (LSTM) neural network. The LSTM model is trained on historical Bitcoin price data and is used to forecast future prices.
 
 # Requirements
-Python 3.x
-Pandas
-NumPy
-Matplotlib
-Keras
-TensorFlow
+- **Python 3.8 or higher**
+- **Required Python libraries**
+  - **TensorFlow/PyTorch**
+  - **NumPy**
+  - **Pandas**
+  - **Scikit-learn**
+  - **Matplotlib**
+  - **Seaborn**
 
 # Install dependencies:
-pip install pandas 
-pip install numpy 
-pip install matplotlib 
-pip install keras 
-pip install tensorflow
+- **pip install pandas**
+- **pip install numpy** 
+- **pip install matplotlib** 
+- **pip install keras** 
+- **pip install tensorflow**
 
 BitcoinPricePrediction.ipyb script will load the data, preprocess it, create training and testing sets, build the LSTM model, train the model, make predictions on test data, and visualize the results.
 
