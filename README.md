@@ -25,9 +25,9 @@ BitcoinPricePrediction.ipyb script will load the data, preprocess it, create tra
 # Model Architecture
 
 The LSTM model used in this project consists of the following layers:
-Input layer: Takes the sequence of historical prices as input.
-LSTM layers: Process the input sequence and capture long-term dependencies in the data.
-Dense layer: Output layer that predicts the future price.
+- **Input layer:** Takes the sequence of historical prices as input.
+- **LSTM layers:** Process the input sequence and capture long-term dependencies in the data.
+- **Dense layer:** Output layer that predicts the future price.
 
 # Evaluation
 The model's performance is evaluated using appropriate metrics, such as mean squared error (MSE), root mean squared error (RMSE), and mean absolute error (MAE).
